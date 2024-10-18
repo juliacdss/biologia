@@ -8,6 +8,9 @@ main h1 {
 .images {
     display: flex;
     margin: 0 5vw 0 8vw;
+    border-bottom: 2px solid #779058; /* Adiciona uma linha preta */
+    padding-bottom: 30px; /* Espaçamento abaixo das imagens */
+    margin-bottom: 10px; /* Espaçamento abaixo do contêiner */
 }
 
 .images img {
@@ -20,19 +23,57 @@ main h1 {
     color: #779058;
     font-size: xx-large;
     text-align: center;
-    margin: 1.5vw 0 1.5vw 0;
+    margin: 1vw 0 1.5vw 0;
 }
 
 .citologia {
     padding: 20px; /* Espaçamento dentro da seção */
 }
 
-.texto {
-    background-color: #779058; /* Cor de fundo verde */
-    color: white; /* Cor do texto */
-    padding: 15px; /* Espaçamento interno */
-    margin: 10px 0; /* Espaçamento entre os blocos */
-    border-radius: 8px; /* Bordas arredondadas, opcional */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra opcional */
+.citologia img {
+    width: 45%; /* Define a largura como 50% do elemento pai */
+    height: auto; /* Mantém a proporção */  
+    padding: 0 5vw 0 5vw;
+    margin: 0 10vw 0 20vw;
 }
 
+.container {
+    display: flex; /* Ativa o flexbox apenas para os blocos de texto */
+    justify-content: space-between; /* Espaça os blocos uniformemente */
+    flex-wrap: wrap; /* Permite que os blocos se movam para a linha seguinte se necessário */
+    border-bottom: 2px solid #779058; /* Adiciona uma linha preta */
+    padding-bottom: 30px; /* Espaçamento abaixo das imagens */
+    margin-bottom: 10px; /* Espaçamento abaixo do contêiner */
+}
+
+.texto {
+    background-color: #779058; /* Cor de fundo verde */
+    color: #fff2f2; /* Cor do texto */
+    padding: 15px; /* Espaçamento interno */
+    margin: 10px; /* Margem entre os blocos */
+    border-radius: 8px; /* Bordas arredondadas, opcional */
+    flex: 1; /* Faz os blocos ocuparem espaço igual */
+    max-width: 45%; /* Limita a largura máxima de cada bloco */
+}
+
+.texto ul {
+    list-style-type: none; /* Remove a bolinha da lista */
+    padding: 0; /* Remove o padding da lista */
+}
+
+.texto p {
+    padding: 10px 0 0 0;
+}
+
+footer {
+    background-color: #779058;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}

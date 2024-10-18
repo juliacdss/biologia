@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+    justify-content: center;
+    background-color: #FFF2F2;
+    color: #779058;
+    
+   
+}
+h1 {
+
+    font-weight: bold;
+    font-size: 5VW;
+    margin: 3VW 0 3VW 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+img {
+
+    width: 30vw;
+    height: auto;
+    text-align: center;
+    margin: 0 0.5vw ;
+
+}
+section.organelas div.img {
+
+    display: flex;
+    justify-content: center;
+    margin: 0 0 4vw 0;
+}
+
+
+
+h3 {
+
+    font-weight: bold;
+    font-size: medium;
+    text-align: center;
+    margin: 0 0 2vw 0;
+}
+
+h4 {
+
+    text-align: justify;
+}
+
+section {
+    margin: 20px; /* Margem externa para o contêiner */
+}
+
+.oquesao {
+    margin-bottom: 20px; /* Espaçamento entre as divs */
+}
+
+.sobre {
+    display: flex; /* Permite que as divs internas sejam flexíveis */
+    justify-content: space-between; /* Distribui espaço entre as divs internas */
+}
+
+.existentes, .funcoes {
+    width: 48%; /* Largura das divs internas */
+    padding: 15px; /* Espaçamento interno */
+}
+
