@@ -1,0 +1,48 @@
+.nomes{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 2px 70px 2px 2px;
+    text-align: center;
+}
+.nomes h3{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 0 0vw 0 4vw;
+    text-align: center;
+}
+div.equipe {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0 2vw 0 4vw;
+}
+div.equipe img{
+    width: 350px; 
+    height: 350px;
+}
+.equipe {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.equipe img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.equipe img:hover {
+    transform: scale(1.05); /* Aumenta a imagem quando passa o mouse */
+}
+
+.equipe img.clicked {
+    transform: translateY(-10px); /* Levanta a imagem quando clicada */
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+}
