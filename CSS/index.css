@@ -8,6 +8,9 @@ main h1 {
 .images {
     display: flex;
     margin: 0 5vw 0 8vw;
+    border-bottom: 2px solid #779058; /* Adiciona uma linha preta */
+    padding-bottom: 30px; /* Espaçamento abaixo das imagens */
+    margin-bottom: 10px; /* Espaçamento abaixo do contêiner */
 }
 
 .images img {
@@ -20,7 +23,7 @@ main h1 {
     color: #779058;
     font-size: xx-large;
     text-align: center;
-    margin: 1.5vw 0 1.5vw 0;
+    margin: 1vw 0 1.5vw 0;
 }
 
 .citologia {
@@ -31,6 +34,9 @@ main h1 {
     display: flex; /* Ativa o flexbox apenas para os blocos de texto */
     justify-content: space-between; /* Espaça os blocos uniformemente */
     flex-wrap: wrap; /* Permite que os blocos se movam para a linha seguinte se necessário */
+    border-bottom: 2px solid #779058; /* Adiciona uma linha preta */
+    padding-bottom: 30px; /* Espaçamento abaixo das imagens */
+    margin-bottom: 10px; /* Espaçamento abaixo do contêiner */
 }
 
 .texto {
@@ -48,3 +54,6 @@ main h1 {
     padding: 0; /* Remove o padding da lista */
 }
 
+.texto p {
+    padding: 10px 0 0 0;
+}
