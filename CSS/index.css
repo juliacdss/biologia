@@ -30,6 +30,13 @@ main h1 {
     padding: 20px; /* Espaçamento dentro da seção */
 }
 
+.citologia img {
+    width: 45%; /* Define a largura como 50% do elemento pai */
+    height: auto; /* Mantém a proporção */  
+    padding: 0 5vw 0 5vw;
+    margin: 0 10vw 0 20vw;
+}
+
 .container {
     display: flex; /* Ativa o flexbox apenas para os blocos de texto */
     justify-content: space-between; /* Espaça os blocos uniformemente */
@@ -56,4 +63,17 @@ main h1 {
 
 .texto p {
     padding: 10px 0 0 0;
+}
+
+footer {
+    background-color: #779058;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
 }
