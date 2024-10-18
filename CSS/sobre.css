@@ -46,3 +46,14 @@ h1{
     text-align: center;
     font-size: xx-large;
 }
+.sobre {
+  display: flex;
+}
+.sobre p{
+    font-size: x-large;
+}
+main h1{
+    font-size: xx-large;
+    color:  #779058;
+
+}
