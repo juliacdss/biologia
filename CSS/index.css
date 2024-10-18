@@ -27,12 +27,24 @@ main h1 {
     padding: 20px; /* Espaçamento dentro da seção */
 }
 
+.container {
+    display: flex; /* Ativa o flexbox apenas para os blocos de texto */
+    justify-content: space-between; /* Espaça os blocos uniformemente */
+    flex-wrap: wrap; /* Permite que os blocos se movam para a linha seguinte se necessário */
+}
+
 .texto {
     background-color: #779058; /* Cor de fundo verde */
-    color: white; /* Cor do texto */
+    color: #fff2f2; /* Cor do texto */
     padding: 15px; /* Espaçamento interno */
-    margin: 10px 0; /* Espaçamento entre os blocos */
+    margin: 10px; /* Margem entre os blocos */
     border-radius: 8px; /* Bordas arredondadas, opcional */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra opcional */
+    flex: 1; /* Faz os blocos ocuparem espaço igual */
+    max-width: 45%; /* Limita a largura máxima de cada bloco */
+}
+
+.texto ul {
+    list-style-type: none; /* Remove a bolinha da lista */
+    padding: 0; /* Remove o padding da lista */
 }
 
