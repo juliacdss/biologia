@@ -7,50 +7,65 @@
     <title>Site Biologia</title>
     <link rel="stylesheet" href="CSS/index.css">
     <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/header.css">
 </head>
 
 <body>
     <header>
-
-        <nav>
-            <ul>
-                <li><a href="#citologia">O que é Citologia?</a></li>
-                <li><a href="organelas.html">O que são Organelas?</a></li>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">Biologia</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="celulas.html">Células</a></li>
+                <li><a href="organelas.html">Organelas</a></li>
+                <li><a href="#">Sobre Nós</a></li>
             </ul>
         </nav>
-        <h1>
-            Citologia - Estudo da Célula
-        </h1>
-
-
     </header>
-
     <main>
-        <section>
-            <img src="" alt="">
+        <h1>
+            Citologia
+        </h1>
+        <section class="images">
+            <img src="images/celulas1.jpeg" alt="celulas1">
+            <img src="images/celulas2.jpeg" alt="celulas2">
+            <img src="images/cel.jpeg" alt="cel">
         </section>
 
         <section class="citologia">
             <h2>O que é Citologia?</h2>
-            <p>A citologia, também chamada de biologia celular, é a área da biologia que estuda as células. Esse campo
-                concentra-se no estudo das células, incluindo sua estrutura e suas funções químicas e energéticas
-                (metabolismo).</p>
-            <p>O termo "citologia" vem do grego "kytos", que significa célula, e "logos", que quer dizer estudo.</p>
-            <p>As células são as menores partes que formam os seres vivos, e a citologia estuda como as células são
-                feitas, o que elas fazem e como funcionam. A citologia também observa como as células se dividem,
-                crescem e reagem a problemas, como doenças. Esse estudo é importante para entender como nosso corpo e
-                outros organismos vivem e se mantêm saudáveis.</p>
-            <p>Seu surgimento está ligado à invenção do microscópio. Em 1663, Robert Hooke cortou um pedaço de cortiça e
-                o analisou usando um microscópio. Ele percebeu pequenos compartimentos, que chamou de células. Esse
-                momento marcou o início do desenvolvimento da citologia como ciência. Com o aprimoramento dos
-                microscópios, foi possível observar e estudar melhor as estruturas celulares.</p>
-
+            <div class="texto">
+                <p>A citologia, também chamada de biologia celular, é a área da biologia que estuda as células. Esse campo
+                    concentra-se no estudo das células, incluindo sua estrutura e suas funções químicas e energéticas
+                    (metabolismo).</p>
+                <p>O termo "citologia" vem do grego "kytos", que significa célula, e "logos", que quer dizer estudo.</p>
+            </div>
+            <div class="texto">
+                <p>As células são as menores partes que formam os seres vivos, e a citologia estuda como as células são
+                    feitas, o que elas fazem e como funcionam. A citologia também observa como as células se dividem,
+                    crescem e reagem a problemas, como doenças. Esse estudo é importante para entender como nosso corpo e
+                    outros organismos vivem e se mantêm saudáveis.</p>
+                <p>Seu surgimento está ligado à invenção do microscópio. Em 1663, Robert Hooke cortou um pedaço de cortiça e
+                    o analisou usando um microscópio. Ele percebeu pequenos compartimentos, que chamou de células. Esse
+                    momento marcou o início do desenvolvimento da citologia como ciência. Com o aprimoramento dos
+                    microscópios, foi possível observar e estudar melhor as estruturas celulares.</p>
+            </div>
         </section>
 
         
 
+        <footer>
 
+        </footer>
     </main>
+    <script src="js/header.js"></script>
 </body>
 
 </html>
