@@ -130,4 +130,47 @@ header {
     border-color: #354423; /* Borda de cor ao passar o mouse */
 }
 
+/* Estilo do submenu (inicialmente oculto) */
+.dropdown-menu {
+    display: none; /* O submenu estará escondido por padrão */
+    position: absolute; /* Posiciona o submenu abaixo do item */
+    background-color: #779058; /* Cor de fundo do submenu */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    top: 100%; /* Posiciona logo abaixo do item do menu */
+    left: 0;
+    z-index: 1000;
+}
 
+.dropdown-menu li {
+    margin: 0;
+}
+
+.dropdown-menu li a {
+    padding: 10px 15px;
+    display: block;
+    color: #fff2f2;
+    text-decoration: none;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #779058;
+}
+
+/* Exibir submenu ao passar o mouse (se quiser usar hover em vez de clique) */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Para o estilo mobile, ajustando o submenu */
+@media (max-width: 768px) {
+    .dropdown-menu {
+        position: static; /* O submenu será empilhado abaixo do item principal */
+    }
+
+    .dropdown-menu li {
+        margin: 15px 0;
+    }
+}
