@@ -15,7 +15,7 @@ main {
 /* Título da seção */
 main h1 {
     font-size: 2.5rem;
-    color: #3b773b;
+    color: #779058;
     margin-bottom: 20px;
 }
 
@@ -29,7 +29,7 @@ main p {
 main h3 {
     font-size: 1.8rem;
     margin-bottom: 15px;
-    color: #3b773b;
+    color: #779058;
 }
 
 /* Estilo da lista de referências */
@@ -44,7 +44,7 @@ main h3 {
 
 .referencias li a {
     font-size: 1.1rem;
-    color: #3b773b;
+    color: #779058;
     text-decoration: none;
 }
 
