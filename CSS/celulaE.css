@@ -1,3 +1,7 @@
+body {
+    background-color: #fff2f2;
+}
+
 .eucarionte h1 {
     font-size: xxx-large;
     color: #779058;
@@ -5,7 +9,7 @@
     text-align: center;
 }
 
-.eucarionte h2 {
+ h2 {
     font-size: xx-large;
     color: #779058;
     font-weight: bold;
@@ -47,11 +51,32 @@
     padding: 1vw 1vw 1vw 1vw;
     background-color: #779058;
     margin: 2vw 40vw 2vw 40vw;
+    color: #fff2f2;
+    cursor: pointer;
 }
 
 .eucarionte a {
     text-decoration: none;
     color: #fff2f2;
+}
+div.img {
+    margin: 2vw 30vw 2vw 30vw;
+}
+
+.vegetais {
+    display: flex;
+    justify-content: center;
+}
+.animal {
+    display: flex;
+    justify-content: center;
+}
+.conclusao p {
+    margin: 2vw 24vw 2vw 24vw;
+    width: 50%;
+    border-bottom: 2px solid #779058; /* Adiciona uma linha */
+    padding-bottom: 30px; /* Espaçamento abaixo das imagens */
+    margin-bottom: 10px; /* Espaçamento abaixo do contêiner */
 }
 
 footer {
@@ -64,5 +89,5 @@ footer {
 
 footer p {
     font-size: 14px;
-    padding: 1.5vw 0 1.5vw 0;
+    padding: 0.5vw 0 0.5vw 0;
 }

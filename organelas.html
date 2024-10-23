@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Organelas Citoplásmaticas</title>
+    <title>Site Biologia</title>
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/organelas.css">
     <link rel="stylesheet" href="CSS/header.css">
@@ -26,6 +26,7 @@
                 <li><a href="celulaProcarionte.html">Células</a></li>
                 <li><a href="organelas.html">Organelas</a></li>
                 <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="referencias.html">Referências</a></li>
             </ul>
         </nav>
     </header>
@@ -40,81 +41,118 @@
                     alt="organelas">
                 <img src="images/freepik__candid-image-photography-natural-textures-highly-r__77585.jpeg"
                     alt="organelas">
-
             </div>
-            <div class="oquesao">
-                <h3>O QUE SÃO:</h3>
-                <p>Organelas são estruturas internas da célula, comparáveis a "mini órgãos", que realizam funções
-                    essenciais como síntese de proteínas, digestão, armazenamento e produção de energia. Nas células
-                    eucariontes (animais e vegetais), são envolvidas por membranas e têm papéis específicos no
-                    metabolismo celular (Mundo Educação, 2024; Beduka, 2024).</p>
-            </div>
-            <div class="sobre">
-                <div class="existentes">
-                    <h3>ORGANELAS EXISTENTES NAS <br>CÉLULAS ANIMAIS E VEGETAIS:</h3>
-                    <h4>Núcleo:</h4>
-                    <p> Controla as atividades celulares e armazena o material genético.</p>
-                    <h4>Mitocôndrias:</h4>
-                    <p>Produzem ATP, a principal fonte de energia celular.</p>
-                    <h4>Ribossomos: </h4>
-                    <p>Realizam a síntese de proteínas.</p>
-                    <h4>Retículo Endoplasmático: </h4>
-                    <p>Dividido em rugoso (com ribossomos) e liso (sem ribossomos), participa
-                        na
-                        síntese de proteínas e lipídios.</p>
-                    <h4>Complexo de Golgi: </h4>
-                    <p>Modifica e distribui proteínas e lipídios.</p>
-                    <h4>Lisossomos: </h4>
-                    <p>Contêm enzimas digestivas para decomposição de resíduos.</p>
-                    <h4>Peroxissomos: </h4>
-                    <p>Degradam substâncias tóxicas.</p>
-                    <h4>Citoesqueleto:</h4>
-                    <p> Estrutura que dá forma à célula e facilita o transporte intracelular.</p>
-                    <h4> Vacuolos:</h4>
-                    <p>Armazenam substâncias e regulam a pressão osmótica (Prepara Enem, 2024; Biologia Net,
-                        2024)</p>
-                </div>
 
-                <div class="funcoes">
-                    <h3>SUAS FUNÇÕES</h3>
-                    <h4>Retículo Endoplasmático Rugoso (RER):</h4>
-                    <p>Possui ribossomos em sua superfície, sendo responsável pela
-                        síntese de proteínas, que podem ser enviadas para fora da célula ou incorporadas à membrana
-                        plasmática (Mundo Educação, 2024).
-                    <h4> Retículo Endoplasmático Liso (REL):</h4>
-                    <p>Envolvido na síntese de lipídios e na desintoxicação celular. O
-                        REL não possui ribossomos, diferenciando-se do RER (Mundo Educação, 2024).</p>
-                    <h4> Complexo de Golgi:</h4>
-                    <p> Modifica, empacota e distribui proteínas e lipídios produzidos no retículo
-                        endoplasmático, além de formar lisossomos (Beduka, 2024).</p>
-                    <h4>Lisossomos: </h4>
-                    <p>Presentes em células animais, são pequenas vesículas contendo enzimas digestivas,
-                        responsáveis pela digestão de resíduos celulares e partículas estranhas (Mundo Educação, 2024).
-                    </p>
-                    <h4>Peroxissomos:</h4>
-                    <p>Organela envolvida na desintoxicação celular, quebrando peróxido de hidrogênio
-                        (tóxico) em água e oxigênio por meio da enzima catalase (Beduka, 2024).</p>
-                    <h4>Centríolos: </h4>
-                    <p>Encontrados no citoesqueleto, ajudam na organização dos microtúbulos durante a divisão
-                        celular e formam os cílios e flagelos (Mundo Educação, 2024).</p>
-                    <h4>Vacuolos:</h4>
-                    <p>Mais prevalentes em células vegetais, os vacúolos atuam no armazenamento de substâncias
-                        como água e nutrientes, além de controlar o volume celular e a pressão osmótica (Beduka, 2024).
-                    </p>
-                    <h4> Plastídeos (exclusivos das células vegetais): </h4>
-                    <p>Incluem os cloroplastos, responsáveis pela
-                        fotossíntese, que converte luz solar em energia química (Mundo Educação, 2024).</p>
-                    <h4> Mitocôndrias:</h4>
-                    <p> Conhecidas como "usina de energia" da célula, são responsáveis pela respiração celular
-                        e produção de ATP, que é a principal fonte de energia celular (Mundo Educação, 2024).</p>
+            <h2>O QUE SÃO:</h2>
+            <p>Organelas são estruturas internas da célula, comparáveis a "mini órgãos", que realizam funções
+                essenciais como síntese de proteínas, digestão, armazenamento e produção de energia. Nas células
+                eucariontes (animais e vegetais), são envolvidas por membranas e têm papéis específicos no
+                metabolismo celular.</p>
 
-                </div>
-            </div>
+            <!-- Tabela de Organelas -->
+            <h3>ORGANELAS EXISTENTES NAS CÉLULAS ANIMAIS E VEGETAIS:</h3>
+            <table border="1" cellspacing="0" cellpadding="10" style="margin: 0 auto;">
+                <thead>
+                    <tr>
+                        <th>Organelas</th>
+                        <th>Função</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Núcleo</td>
+                        <td>Controla as atividades celulares e armazena o material genético.</td>
+                    </tr>
+                    <tr>
+                        <td>Mitocôndrias</td>
+                        <td>Produzem ATP, a principal fonte de energia celular.</td>
+                    </tr>
+                    <tr>
+                        <td>Ribossomos</td>
+                        <td>Realizam a síntese de proteínas.</td>
+                    </tr>
+                    <tr>
+                        <td>Retículo Endoplasmático</td>
+                        <td>Dividido em rugoso (com ribossomos) e liso (sem ribossomos), participa na síntese de proteínas e lipídios.</td>
+                    </tr>
+                    <tr>
+                        <td>Complexo de Golgi</td>
+                        <td>Modifica e distribui proteínas e lipídios.</td>
+                    </tr>
+                    <tr>
+                        <td>Lisossomos</td>
+                        <td>Contêm enzimas digestivas para decomposição de resíduos.</td>
+                    </tr>
+                    <tr>
+                        <td>Peroxissomos</td>
+                        <td>Degradam substâncias tóxicas.</td>
+                    </tr>
+                    <tr>
+                        <td>Citoesqueleto</td>
+                        <td>Estrutura que dá forma à célula e facilita o transporte intracelular.</td>
+                    </tr>
+                    <tr>
+                        <td>Vacuolos</td>
+                        <td>Armazenam substâncias e regulam a pressão osmótica.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Tabela de Funções -->
+            <h3>SUAS FUNÇÕES:</h3>
+            <table border="1" cellspacing="0" cellpadding="10" style="margin: 0 auto;">
+                <thead>
+                    <tr>
+                        <th>Organelas</th>
+                        <th>Função</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Retículo Endoplasmático Rugoso (RER)</td>
+                        <td>Possui ribossomos e realiza síntese de proteínas.</td>
+                    </tr>
+                    <tr>
+                        <td>Retículo Endoplasmático Liso (REL)</td>
+                        <td>Envolvido na síntese de lipídios e desintoxicação celular.</td>
+                    </tr>
+                    <tr>
+                        <td>Complexo de Golgi</td>
+                        <td>Modifica, empacota e distribui proteínas e lipídios, formando lisossomos.</td>
+                    </tr>
+                    <tr>
+                        <td>Lisossomos</td>
+                        <td>Responsáveis pela digestão de resíduos celulares.</td>
+                    </tr>
+                    <tr>
+                        <td>Peroxissomos</td>
+                        <td>Quebram peróxido de hidrogênio em água e oxigênio.</td>
+                    </tr>
+                    <tr>
+                        <td>Centríolos</td>
+                        <td>Organizam os microtúbulos durante a divisão celular.</td>
+                    </tr>
+                    <tr>
+                        <td>Vacuolos</td>
+                        <td>Armazenam substâncias e controlam o volume celular e a pressão osmótica.</td>
+                    </tr>
+                    <tr>
+                        <td>Plastídeos</td>
+                        <td>Responsáveis pela fotossíntese nas células vegetais.</td>
+                    </tr>
+                    <tr>
+                        <td>Mitocôndrias</td>
+                        <td>Realizam a respiração celular e produção de ATP.</td>
+                    </tr>
+                </tbody>
+            </table>
             <p>Essas organelas trabalham em conjunto, mantendo as células vivas e garantindo que os processos
                 necessários para a sobrevivência e o funcionamento celular ocorram adequadamente.</p>
         </section>
+        <footer>
+            <p>&copy; 2024 Citologia. Todos os direitos reservados.</p>
+        </footer>
     </main>
     <script src="js/header.js"></script>
 </body>
-
 </html>

@@ -1,0 +1,94 @@
+/* Estilo geral */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff2f2;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Título da seção */
+main h1 {
+    font-size: 2.5rem;
+    color: #3b773b;
+    margin-bottom: 20px;
+}
+
+/* Parágrafo inicial */
+main p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Título das referências */
+main h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #3b773b;
+}
+
+/* Estilo da lista de referências */
+.referencias {
+    list-style-type: none;
+    padding: 0;
+}
+
+.referencias li {
+    margin-bottom: 10px;
+}
+
+.referencias li a {
+    font-size: 1.1rem;
+    color: #3b773b;
+    text-decoration: none;
+}
+
+.referencias li a:hover {
+    text-decoration: underline;
+}
+
+section{
+    text-align: center;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+
+    main h1 {
+        font-size: 2rem;
+    }
+
+    main p {
+        font-size: 1rem;
+    }
+
+    main h3 {
+        font-size: 1.5rem;
+    }
+
+    .referencias li a {
+        font-size: 1rem;
+    }
+}
+
+
+footer {
+    background-color: #779058;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 14px;
+    padding: 0.5vw 0 0.5vw 0;
+}

@@ -1,5 +1,6 @@
 body {
     text-decoration: none;
+    background-color: #fff2f2;
 }
 
 main h1 {
@@ -7,6 +8,7 @@ main h1 {
     text-align: center;
     color: #779058;
     margin: 2vw 0 2vw 0;
+    font-weight: bold;
 }
 
 .images {
@@ -27,7 +29,7 @@ main h1 {
     color: #779058;
     font-size: xx-large;
     text-align: center;
-    margin: 1vw 0 1.5vw 0;
+    margin: 1vw 0 0.5vw 0;
 }
 
 .citologia {
@@ -76,6 +78,8 @@ main h1 {
     padding: 1vw 1vw 1vw 1vw;
     background-color: #779058;
     margin: 2vw 40vw 2vw 40vw;
+    color: #fff2f2;
+    cursor: pointer;
 }
 
 .citologia a {
@@ -94,5 +98,5 @@ footer {
 
 footer p {
     font-size: 14px;
-    padding: 1.5vw 0 1.5vw 0;
+    padding: 0.5vw 0 0.5vw 0;
 }
